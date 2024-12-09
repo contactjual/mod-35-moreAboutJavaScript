@@ -1,3 +1,5 @@
+// those are working synchronously
+
 console.log(1);
 console.log(2);
 myNum();
@@ -10,7 +12,9 @@ function myNum(){
 }
 
 
-// fetch and timeout function does not work sirially
+
+
+// fetch and timeout function does not work synchronously
 console.log('fetch function')
 
 console.log(1);
